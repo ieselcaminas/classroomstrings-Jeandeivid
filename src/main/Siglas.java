@@ -6,11 +6,9 @@ import java.util.Scanner;
                 if ((i == 0 )) {
                     sigla += palabra.charAt(i);
                 }
-                else if (palabra.charAt(i) == ' ') {
-                    sigla += palabra.charAt(i + 1);
+                else if (palabra.charAt(i) == ' ' && Character.isUpperCase(palabra.charAt(i + 1))) {
+                   sigla += palabra.charAt(i + 1);
                 }
-
-
             }
             return sigla;
         }
