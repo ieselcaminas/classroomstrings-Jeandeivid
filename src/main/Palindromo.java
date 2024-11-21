@@ -10,6 +10,6 @@ public class Palindromo {
     }
 
     public static void main(String[] args) {
-        System.out.println(Palindromo.esPalindromo(""));
+        System.out.println(Palindromo.esPalindromo("ana"));
     }
 }

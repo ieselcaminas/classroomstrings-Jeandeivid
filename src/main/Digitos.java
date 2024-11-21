@@ -1,7 +1,5 @@
 
-
 import java.util.Scanner;
-
 public class Digitos {
         public static int cuantosSonDigitos(String texto) {
             int contadorDigitos = 0;

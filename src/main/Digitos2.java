@@ -25,6 +25,6 @@ public class Digitos2 {
         return  true;
     }
     public static void main(String[] args) {
-        System.out.println(Digitos2.esNumero("12 56 40 902 "));
+        System.out.println(Digitos2.esNumero("12 56 40 902 5"));
     }
 }
